@@ -2,6 +2,8 @@
 
 ## Singlly linked list have only 1 connection between nodes
 
+#To traverse a linked list means to visit each node in the linked list, typically to access or process the data stored in each node
+
 ## last item in list is None/Null
 
 ## class create objects, creating the node
