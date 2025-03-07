@@ -11,3 +11,4 @@ def calPoints(self, operations):
             elif operation not in ("+", "C", "D"):
                 record.append(int(operation))
         return sum(record)
+
