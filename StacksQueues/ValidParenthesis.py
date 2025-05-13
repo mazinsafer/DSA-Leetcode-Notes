@@ -1,3 +1,4 @@
+## O(n) time O(n) space
 class Solution(object):
     def isValid(self, s):
         pairs = {"(": ")", "{": "}", "[": "]"}
@@ -17,7 +18,7 @@ class Solution(object):
 ## initlialize a stack named valid 
 ## loop through each char in s:
 ## if the char is an opening character ( (, [, {) then push the character to the stack
-## if the char is a closing character ( ), ], }) then check if the last char in the stack is equal to the current closing character in the hashmap
+## if the char is a closing character ( ), ], }) then check if the last char in the stack matches with the current closing character in the hashmap
     ## do this by poping from the stack
 ## if there not equal return false
 ## if the stack is empty (that means there is no opening chars) then return False
